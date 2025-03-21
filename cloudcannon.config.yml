@@ -1,8 +1,11 @@
 collections_config: {}
+
 paths:
   static: ''
   uploads: uploads
+
 timezone: Europe/London
+
 markdown:
   engine: commonmark
   options: {}
@@ -19,3 +22,10 @@ files:
           type: textarea
           label: Page Description
           selector: p
+
+collections:
+  pages:
+    path: /
+    label: Pages
+    files:
+      - index.html
