@@ -5,14 +5,22 @@ files:
   index.html:
     editor:
       inputs:
-        heading:
+        overview_title:
           type: text
-          label: Page Title
-          selector: h1
-        description:
+          label: Overview Title
+          selector: "#overview h2"
+        overview_text:
           type: textarea
-          label: Page Description
-          selector: p
+          label: Overview Text
+          selector: "#overview p:nth-of-type(1)"
+        interests_title:
+          type: text
+          label: Research Interests Title
+          selector: "#interests h2"
+        interests_text:
+          type: textarea
+          label: Research Interests Text
+          selector: "#interests p"
 
 collections:
   html_pages:
