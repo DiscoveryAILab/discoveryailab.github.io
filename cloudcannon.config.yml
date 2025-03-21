@@ -6,3 +6,16 @@ timezone: Europe/London
 markdown:
   engine: commonmark
   options: {}
+
+files:
+  index.html:
+    editor:
+      inputs:
+        heading:
+          type: text
+          label: Page Title
+          selector: h1
+        description:
+          type: textarea
+          label: Page Description
+          selector: p
