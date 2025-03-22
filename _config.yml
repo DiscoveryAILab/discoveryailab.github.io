@@ -1,0 +1,15 @@
+title: Research Team
+description: A research team at Example University
+baseurl: ""
+url: "https://your-username.github.io"
+theme: minima
+
+collections:
+  projects:
+    output: true
+  phdprojects:
+    output: true
+  publications:
+    output: true
+  events:
+    output: true
