@@ -4,7 +4,8 @@ description: "Interdisciplinary research at the intersection of AI and bioscienc
 baseurl: ""
 url: "https://DiscoveryAILab.github.io"
 repository: "DiscoveryAILab/discoveryailab.github.io"
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 
 collections:
   teaching:
