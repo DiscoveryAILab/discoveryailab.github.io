@@ -2,11 +2,11 @@ files:
   indextest.html:
     editor:
       inputs:
-        page_title:
+        heading:
           type: text
           label: Page Title
-          selector: "#page-title"
-        intro_text:
+          selector: h1
+        description:
           type: textarea
-          label: Introduction Text
-          selector: "#intro-text"
+          label: Page Description
+          selector: p
