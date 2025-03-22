@@ -6,35 +6,7 @@ files:
           type: text
           label: Page Title
           selector: "#page-title"
-
         intro_text:
           type: textarea
           label: Introduction Text
           selector: "#intro-text"
-
-        research_topic_1:
-          type: text
-          label: First Research Topic
-          selector: ".research-topic:nth-of-type(1)"
-
-        research_topic_2:
-          type: text
-          label: Second Research Topic
-          selector: ".research-topic:nth-of-type(2)"
-
-        research_topic_3:
-          type: text
-          label: Third Research Topic
-          selector: ".research-topic:nth-of-type(3)"
-
-        footer_text:
-          type: text
-          label: Footer Text
-          selector: "#footer-text"
-
-collections:
-  html_pages:
-    label: HTML Pages
-    path: /
-    files:
-      - indextest.html
