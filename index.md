@@ -1,9 +1,10 @@
 ---
-layout: default
-title: Home
+layout: home
+permalink: /
+title: "Home"
+author_profile: true
+redirect_from:
+  - /index.html
 ---
 
-# Welcome to Our Research Team
-
-We work at the intersection of AI, biosciences, and data science.
-Learn about our team, projects, and latest updates here.
+Welcome to the **Discovery AI Lab**, where we explore interdisciplinary research in AI and Biosciences.

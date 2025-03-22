@@ -1,15 +1,26 @@
-title: Research Team
-description: A research team at Example University
+title: "Discovery AI Lab"
+email: contact@example.edu
+description: "Interdisciplinary research at the intersection of AI and biosciences"
 baseurl: ""
-url: "https://your-username.github.io"
-theme: minima
+url: "https://DiscoveryAILab.github.io"
+repository: "DiscoveryAILab/discoveryailab.github.io"
+theme: minimal-mistakes-jekyll
 
 collections:
+  teaching:
+    output: true
+  posts:
+    output: true
   projects:
     output: true
   phdprojects:
     output: true
-  publications:
+  pages:
     output: true
-  events:
-    output: true
+
+plugins:
+  - jekyll-scholar
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache

@@ -1,8 +1,0 @@
----
-title: AI for Health
-funding: UKRI
-year: 2024-2027
-layout: default
----
-
-This project explores AI-driven diagnostics for ischemic diseases...
