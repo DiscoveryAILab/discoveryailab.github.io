@@ -1,10 +1,12 @@
 ---
-layout: single
 title: "Publications"
+layout: single
 permalink: /publications/
 author_profile: true
 ---
 
-A selection of our featured publications.
+Here are selected recent publications:
 
-- X, Y, Z (2025). *A Low-Dimensional Link Prediction Model*. AAAI 2025.
+{% for pub in site.data.publications %}
+- **{{ pub.authors }}** ({{ pub.year }}). *{{ pub.title }}*. {{ pub.journal }}.
+{% endfor %}

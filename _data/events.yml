@@ -1,9 +1,8 @@
-- title: Workshop on AI & Causality
-  date: 2025-04-15
-  location: Conference Room A
-  description: Discussing the frontier of causal inference in AI.
+- title: "Lab Symposium on AI in Biosciences"
+  date: "2025-06-12"
+  description: "A one-day research showcase on AI for health and biology."
 
-- title: Research Retreat
-  date: 2025-06-10
-  location: Lakeview Center
-  description: A full-day lab retreat for brainstorming and collaboration.
+archived_events:
+  - title: "Workshop on Causal AI"
+    date: "2024-11-20"
+    description: "Invited talks and demos on causal reasoning for science."

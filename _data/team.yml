@@ -1,0 +1,11 @@
+- name: "Dr. Hui Wang"
+  role: "Principal Investigator"
+  email: "hui.wang@example.edu"
+  bio: "Hui leads Discovery AI Lab and researches causal AI, digital health, and biosystems modeling."
+  photo: "/assets/images/team/hui_wang.jpg"
+
+- name: "Alice Zhang"
+  role: "PhD Researcher"
+  email: "alice.zhang@example.edu"
+  bio: "Alice focuses on time-series causal discovery using deep learning."
+  photo: "/assets/images/team/alice_zhang.jpg"

@@ -1,27 +1,67 @@
 title: "Discovery AI Lab"
-email: contact@example.edu
-description: "Interdisciplinary research at the intersection of AI and biosciences"
+email: your-email@example.com
+description: >- 
+  We explore interdisciplinary research in AI and Biosciences.
 baseurl: ""
-url: "https://DiscoveryAILab.github.io"
-repository: "DiscoveryAILab/discoveryailab.github.io"
-#theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+url: "https://discoveryailab.github.io"
 
-collections:
-  teaching:
-    output: true
-  posts:
-    output: true
-  projects:
-    output: true
-  phdprojects:
-    output: true
-  pages:
-    output: true
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+markdown: kramdown
+theme: null
 
 plugins:
-  - jekyll-scholar
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+
+header_pages:
+  - index.md
+  - _pages/funded-projects.md
+  - _pages/phd-projects.md
+  - _pages/publications.md
+  - _pages/events.md
+  - _pages/blog.md
+  - _pages/team.md
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/DiscoveryAILab"
+
+author:
+  name   : "Discovery AI Lab"
+  avatar : "/assets/images/avatar.png"
+  bio    : "AI + Biosciences Research Group"
+
+google_analytics: UA-XXXXXXXXX-X
+
+social:
+  type: Person
+  name: Hui Wang
+  links:
+    - https://github.com/DiscoveryAILab
+    - https://orcid.org/0000-0000-0000-0000
