@@ -1,6 +1,6 @@
 title: "Discovery AI Lab"
-description: "Minimal working setup"
-baseurl: ""
+description: "We explore interdisciplinary research in AI and Biosciences."
+baseurl: "" 
 url: "https://discoveryailab.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -14,3 +14,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
   - jekyll-remote-theme
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
