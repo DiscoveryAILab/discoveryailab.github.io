@@ -1,0 +1,16 @@
+title: "Discovery AI Lab"
+description: "Minimal working setup"
+baseurl: ""
+url: "https://discoveryailab.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: null
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-remote-theme
