@@ -2,10 +2,10 @@
   role: "Principal Investigator"
   email: "h.wang@qub.ac.uk"
   bio: "Hui leads Discovery AI Lab and researches probabilistic modelling, causal AI, and biosystems modeling."
-  photo: "/assets/images/team/WH-Portrait.jpg"
+  photo: "/assets/images/team/huiwang.png"
 
 - name: "Dr Thai Son Mai"
   role: "Senior Lecturer"
   email: "ThaiSon.Mai@qub.ac.uk" 
   bio: "ThaiSon focuses on time-series causal discovery using deep learning."
-  photo: "/assets/images/team/thaison_mai.jpg"
+  photo: "/assets/images/team/thaisonmai.jpg"

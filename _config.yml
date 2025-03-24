@@ -17,6 +17,7 @@ plugins:
 
 include:
   - _pages
+  - assets/css/custom.css
 
 exclude:
   - Gemfile
@@ -24,3 +25,11 @@ exclude:
   - node_modules
   - vendor
   - README.md
+
+# Add this under 'defaults' if needed
+defaults:
+  - scope:
+      path: ""
+    values:
+      custom_css:
+        - /assets/css/custom.css

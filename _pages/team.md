@@ -6,10 +6,14 @@ author_profile: false
 ---
 
 {% for member in site.data.team %}
-### {{ member.name }}
-- **Role**: {{ member.role }}
-- **Email**: [{{ member.email }}](mailto:{{ member.email }})
-- **Bio**: {{ member.bio }}
-
-![Photo of {{ member.name }}]({{ member.photo }})
+<div class="member-card">
+  <img src="{{ member.photo }}" alt="Photo of {{ member.name }}" class="member-photo" />
+  <div class="member-info">
+    <h3>{{ member.name }}</h3>
+    <p><strong>Role:</strong> {{ member.role }}</p>
+    <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+    <p><strong>Bio:</strong> {{ member.bio }}</p>
+  </div>
+</div>
 {% endfor %}
+

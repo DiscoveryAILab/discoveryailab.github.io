@@ -1,0 +1,19 @@
+.member-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap; /* optional, helps small screen layout */
+}
+
+.member-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.member-info {
+  flex: 1; /* take up remaining space */
+}
