@@ -6,6 +6,10 @@
   student: "Xiaoqian LIU (visiting)"
   supervisor: "Prof. Hui Wang"
   description: "Discovery AI -- Causality"
+- title: "Causal representation learning for decision support systems: non-communicable diseases management empowerment via interventions"
+  student: "Tadiyos Hailemichael Mamo"
+  supervisor: "Dr Mohammed Hasanuzzaman"
+  description: "Discovery AI -- Causality"
 - title: "Food Authentication"
   student: "Lauren Gilman"
   supervisor: "Prof. Hui Wang"
@@ -34,4 +38,3 @@
   student: "Tianyu REN"
   supervisor: "Prof. Hui Wang"
   description: "Regulatory Compliance Management"
-
