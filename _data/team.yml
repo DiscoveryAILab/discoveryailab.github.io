@@ -13,3 +13,16 @@
   email: "m.hasanuzzaman@qub.ac.uk"
   bio: "Mohammed focuses on machine learning, deep learning, natural language processing and e-health"
   photo: "/assets/images/team/Mohammed_Hasanuzzaman.jpg"
+- name: "Dr Shuyan Li"
+  role: "Lecturer"
+  email: "shuyan.li@qub.ac.uk"
+  bio: "Shuyan focuses on deep learning, computer vision and digital twins"
+  photo: "/assets/images/team/shuyan_li.jpg"
+- name: "Dr Muhammad Fahim"
+  role: "Lecturer"
+  email: "M.Fahim@qub.ac.uk"
+  bio: "Muhammad Fahim focuses on AI in healthcare with a primary focus on healthy aging"
+  photo: "/assets/images/team/Muhammad_Fahim.jpg"
+
+
+ 
