@@ -17,3 +17,7 @@
 .member-info {
   flex: 1; /* take up remaining space */
 }
+
+body {
+  background: #ffffcc !important;
+}

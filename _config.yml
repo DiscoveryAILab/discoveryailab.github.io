@@ -18,6 +18,7 @@ plugins:
 include:
   - _pages
   - assets/css/custom.css
+  - _includes/head-custom.html
 
 exclude:
   - Gemfile
@@ -25,11 +26,14 @@ exclude:
   - node_modules
   - vendor
   - README.md
+  - bk/
 
-# Add this under 'defaults' if needed
+
+# Enable custom head include
 defaults:
   - scope:
       path: ""
     values:
-      custom_css:
-        - /assets/css/custom.css
+      head_scripts: true
+      head_custom: true
+
