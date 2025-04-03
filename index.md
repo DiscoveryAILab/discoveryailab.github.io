@@ -31,6 +31,17 @@ feature_row2:
 ---
 
 
+
+<style>
+.site-title {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  color: #005BAC !important;
+}
+</style>
+
+
+
 The **Discovery AI Lab** is based at *Queen's University Belfast*. 
 
 ## About Discovery AI
