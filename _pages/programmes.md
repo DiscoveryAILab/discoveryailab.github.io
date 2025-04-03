@@ -5,6 +5,15 @@ permalink: /programmes/
 author_profile: false
 ---
 
+<style>
+.site-title {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  color: #005BAC !important;
+}
+</style>
+
+
 In our Lab, we take a probabilistic approach to discovery AI, using Contextual Probability to enable discovery AI. Thus our work is categorised into two programmes: **Contextual Probability** and **Discovery AI**.
 
 ### Contextual Probability

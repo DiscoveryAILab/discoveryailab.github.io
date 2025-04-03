@@ -5,6 +5,15 @@ permalink: /projects/
 author_profile: false
 ---
 
+<style>
+.site-title {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  color: #005BAC !important;
+}
+</style>
+
+
 ## **Funded research projects**:
 
 {% for project in site.data.funded_projects %}

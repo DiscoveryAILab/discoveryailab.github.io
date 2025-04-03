@@ -5,6 +5,14 @@ permalink: /team/
 author_profile: false
 ---
 
+<style>
+.site-title {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  color: #005BAC !important;
+}
+</style>
+
 
 {% for member in site.data.team %}
 <div class="member-card" style="margin-bottom: 5rem;">
