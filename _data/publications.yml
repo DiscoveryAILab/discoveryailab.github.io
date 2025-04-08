@@ -1,3 +1,7 @@
+- authors: "Ren, T., Zhang, Z., Wang, H., & Rafferty, K."
+  year: "2025"
+  title: "OBELLA: Open the Book for Evaluating Long-form Large Language Model Answers in Open-Domain Question Answering"
+  journal: "SIGIR 2025"
 - authors: "Ren, T., Wang, H., & Rafferty, K."
   year: "2025"
   title: "Enhancing question generation through diversity-seeking reinforcement learning with bilevel policy decomposition"
@@ -7,10 +11,9 @@
   year: "2025"
   title: "Improving the Training of Data Efficient GANs via Quality Aware Dynamic Discriminator Rejection Sampling"
   journal: "CVPR 2025"
-
 - authors: "Oyelade, O. N., Wang, H., & Rafferty, K."
   year: "2025"
   title: "SMAR+NIE IdeaGen: a knowledge graph based node importance estimation with analogical reasoning on large language model for idea generation"
   journal: "Expert Systems with Applications"
-  link: "https://pure.qub.ac.uk/en/publications/smarnie-ideagen-a-knowledge-graph-based-node-importance-estimatio"
+  link: "https://doi.org/10.1016/j.eswa.2025.127455"
 
