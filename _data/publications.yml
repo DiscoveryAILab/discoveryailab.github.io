@@ -1,4 +1,7 @@
-
+- authors: "Zhang Z. , Hua Y., Sun G., Wang H., McLoone S."
+  year: "2025"
+  title: "Training Diffusion-based Generative Models with Limited Data"
+  journal: "ICML 2025"
 - authors: "Chen G., Guo G., Martin L., Wang H."
   year: "2025"
   title: "A Low-Dimensional Cross-Attention Model for Link Prediction with Applications to Drug Repurposing"
